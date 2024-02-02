@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.product span{
+    padding: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
